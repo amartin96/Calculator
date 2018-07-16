@@ -1,0 +1,2 @@
+add_executable(CLICalculatorCpp main.cpp)
+target_link_libraries(CLICalculatorCpp LINK_PUBLIC CalculatorCppStatic)

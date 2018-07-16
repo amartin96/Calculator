@@ -1,0 +1,2 @@
+add_executable(CLICalculatorC main.c)
+target_link_libraries(CLICalculatorC LINK_PUBLIC CalculatorCStatic)
